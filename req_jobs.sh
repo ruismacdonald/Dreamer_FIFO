@@ -5,7 +5,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=32G
-#SBATCH --array=0-9
+#SBATCH --array=0
 #SBATCH --acctg-freq=task=1
 #SBATCH --output=%x/%A-%a.out
 #SBATCH --error=%x/%A-%a.err
