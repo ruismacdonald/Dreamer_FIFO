@@ -7,7 +7,7 @@ gym==0.17.3
 imageio==2.4.1
 moviepy==0.2.3.5
 numpy<1.24
-pandas==1.3.5
+pandas==1.5.3
 pickleshare==0.7.5
 piglet==1.0.0
 piglet-templates==1.2.0
